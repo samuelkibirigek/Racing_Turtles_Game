@@ -9,20 +9,20 @@ print(user_choice)
 turtles = []
 
 
-def setup(turtle_object, shade, y):
-    turtle_object = Turtle(shape="turtle")
-    turtle_object.color(shade)
-    turtle_object.penup()
-    turtle_object.goto(-230, y)
-    turtles.append(turtle_object)
-    print(turtle_object)
+def setup(turtle_obj, shade, y):
+    turtle_obj
+    turtle_obj = Turtle(shape="turtle")
+    turtle_obj.color(shade)
+    turtle_obj.penup()
+    turtle_obj.goto(-230, y)
+    turtles.append(turtle_obj)
 
 
-setup(turtle_object="tim", shade="blue", y=0)
-setup(turtle_object="jim", shade="grey", y=60)
-setup(turtle_object="tom", shade="red", y=120)
-setup(turtle_object="sam", shade="orange", y=-60)
-setup(turtle_object="kim", shade="purple", y=-120)
+setup(turtle_obj="tim", shade="blue", y=0)
+setup(turtle_obj="jim", shade="grey", y=60)
+setup(turtle_obj="tom", shade="red", y=120)
+setup(turtle_obj="sam", shade="orange", y=-60)
+setup(turtle_obj="kim", shade="purple", y=-120)
 
 race_is_on = True
 while race_is_on:
