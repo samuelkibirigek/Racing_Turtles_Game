@@ -15,10 +15,11 @@ def setup(turtle_object, shade, y):
     turtle_object.penup()
     turtle_object.goto(-230, y)
     turtles.append(turtle_object)
+    print(turtle_object)
 
 
 setup(turtle_object="tim", shade="blue", y=0)
-setup(turtle_object="jim",shade="grey", y=60)
+setup(turtle_object="jim", shade="grey", y=60)
 setup(turtle_object="tom", shade="red", y=120)
 setup(turtle_object="sam", shade="orange", y=-60)
 setup(turtle_object="kim", shade="purple", y=-120)
